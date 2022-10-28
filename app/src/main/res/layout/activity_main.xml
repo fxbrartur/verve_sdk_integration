@@ -31,13 +31,14 @@
         android:text="0"
         android:textAlignment="textEnd"
         android:textColor="@color/black"
-        android:textSize="64dp" />
+        android:textSize="45dp" />
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:backgroundTint="@color/black"
         android:layout_alignParentBottom="true"
         android:background="#F1F1F1"
         android:paddingVertical="16dp"
@@ -290,7 +291,7 @@
                 android:layout_margin="12dp"
                 android:id="@+id/button_dot"
                 android:text="." />
-            <com.google.android.material.button.MaterialButton
+            <Button
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"

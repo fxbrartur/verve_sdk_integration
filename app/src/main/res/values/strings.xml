@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">EasyCalculator</string>
+    <string name="app_name">Artur_Calculator</string>
+    <string name="appId">ca-app-pub-3940256099942544~3347511713</string>
 </resources>

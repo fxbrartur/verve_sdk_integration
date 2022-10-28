@@ -10,6 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://verve.jfrog.io/artifactory/verve-gradle-release' }
+        maven { url "https://maven.google.com"}
     }
 }
 rootProject.name = "calculator_artur"
